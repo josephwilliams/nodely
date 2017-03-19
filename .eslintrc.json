@@ -1,11 +1,13 @@
 {
-  "extends": "airbnb",
+  "extends": [
+    "airbnb"
+  ],
   "plugins": [
     "compat"
   ],
   "rules": {
-    "semi": [2, "never"],
     "no-unexpected-multiline": 2,
     "compat/compat": 2
-  }
+  },
+  "parser": "babel-eslint"
 }
