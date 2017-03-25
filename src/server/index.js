@@ -12,6 +12,7 @@ app.use(STATIC_PATH, express.static('dist'));
 app.use(STATIC_PATH, express.static('public'));
 
 app.get('/', (req, res) => {
+  // eslint-disable-next-line no-console
   res.send(renderApp(APP_NAME));
 });
 
